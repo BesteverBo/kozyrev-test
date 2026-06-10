@@ -1,0 +1,17 @@
+*.css.map
+*.map
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+*.log
+*.tmp
+*.temp
+
+node_modules/
