@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Test Kozyrev</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <main class="courses">
+        <div class="courses__decor-crescents">
+            <img src="assets/decor/shapes.svg" alt="decor">
+        </div>
+
+        <div class="courses__decor-arrows">
+            <img src="assets/decor/arrows.svg" alt="decor">
+        </div>
+
+        <div class="courses__dots-svg">
+            <img src="assets/decor/dots.svg" alt="decor">
+        </div>
+        
+        <div class="courses__container">
+            <h6 class="courses__subtitle">Enjoy your studying!</h6>
+            <h1 class="courses__title">Our online courses</h1>
+            
+            <div class="courses__filters filters">
+                <div class="filters__buttons">
+                    
+                </div>
+                <div class="filters__search">
+                    <input type="text" class="filters__search-input" placeholder="Search course...">
+                    <img src="assets/icons/search.svg" alt="search" class="filters__search-icon">
+                </div>
+            </div>
+            
+            <div class="courses__grid">
+                
+            </div>
+            
+            <button class="courses__load-more">
+                <img src="assets/icons/load-more.svg" alt="load more">
+                    Load more
+                </button>
+        </div>
+        
+        <template id="course-card-template">
+            <article class="card">
+                <div class="card__image">
+                    <img src="" alt="" class="card__img" loading="lazy">
+                </div>
+                <div class="card__content">
+                    <div class="card__category"></div>
+                    <h3 class="card__title"></h3>
+                    <div class="card__info">
+                        <div class="card__price"></div>
+                        <div class="card__speaker"></div>
+                    </div>
+                </div>
+            </article>
+        </template>
+    </main>
+    
+    <script type="module" src="scripts/main.js"></script>
+</body>
+</html>
